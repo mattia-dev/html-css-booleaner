@@ -1,9 +1,11 @@
+/* border/margin/padding reset */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* body, container and header set-up */
 body {
     background-color: lightgrey;
 }
@@ -27,9 +29,11 @@ header {
     height: 45px;
 }
 
+/* beginnig of article section */
 article {
     padding: 0px 6px 0px 6px;
 }
+/* lateral padding for the whole article */
 
 h1 {
     font-size: 40px;
@@ -52,6 +56,7 @@ h1 {
     text-decoration: none;
 }
 
+/* to distantiate every section of the article of the same amount of px */
 .section {
     margin-top: 20px;
 }
@@ -60,14 +65,17 @@ h1 {
     font-size: 12px;
 }
 
+/* for every higlighted portion of text */
 .highlight {
     background-color: yellow;
 }
 
+/* adjusting the list because the points were outside of the container */
 .list {
     padding-left: 15px;
 }
 
+/* table set-up */
 table {
     border-collapse: collapse;
 }
@@ -88,6 +96,7 @@ tbody tr:nth-of-type(2n+1) {
 }
 /* come sopra, altrimenti basta .odd Se ci fossero tante righe penso che il selettore avanzato sarebbe una soluzione migliore */
 
+/* footer set-up */
 footer {
     padding: 30px 0px 30px 6px;
 }
@@ -98,6 +107,7 @@ footer {
     color: grey;
 }
 
+/* layout for related news */
 .footer-news {
     margin-top: 10px;
     height: 150px;
