@@ -29,7 +29,6 @@ header {
 
 article {
     padding: 0px 6px 0px 6px;
-    pa
 }
 
 h1 {
@@ -41,7 +40,7 @@ h1 {
 }
 
 .author {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .date {
@@ -88,3 +87,32 @@ tbody tr:nth-of-type(2n+1) {
     background-color: #b1e5f2;
 }
 /* come sopra, altrimenti basta .odd Se ci fossero tante righe penso che il selettore avanzato sarebbe una soluzione migliore */
+
+footer {
+    padding: 30px 0px 30px 6px;
+}
+
+.footer-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: grey;
+}
+
+.footer-news {
+    margin-top: 10px;
+    height: 150px;
+    width: 200px;
+    background-size: cover;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 0px 0px 8px;
+}
+
+.news-1 {
+    background-image: url('../img/monitor.jpg');
+}
+
+.news-2 {
+    background-image: url('../img/graph.jpg');
+}
