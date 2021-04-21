@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    height: 80px;
+    background-image: url('../img/pattern.png');
+    background-size: 32%;
+    background-color: #4ea0ff;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+
+#header-logo {
+    height: 45px;
+}
