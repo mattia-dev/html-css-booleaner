@@ -11,7 +11,6 @@ body {
 .container {
     background-color: white;
     width: 1050px;
-    height: 1000px;
     margin: 0 auto;
 }
 
@@ -29,7 +28,8 @@ header {
 }
 
 article {
-    padding-left: 6px;
+    padding: 0px 6px 0px 6px;
+    pa
 }
 
 h1 {
@@ -69,4 +69,22 @@ h1 {
     padding-left: 15px;
 }
 
+table {
+    border-collapse: collapse;
+}
 
+thead {
+    background-color: #20a9e5;
+    color: white;
+    text-align: left;
+}
+
+td:last-child {
+    width: 50%;
+}
+/* altrimenti come selettore .right-column, ma volevo provare a usarne uno avanzato */
+
+tbody tr:nth-of-type(2n+1) {
+    background-color: #b1e5f2;
+}
+/* come sopra, altrimenti basta .odd Se ci fossero tante righe penso che il selettore avanzato sarebbe una soluzione migliore */
