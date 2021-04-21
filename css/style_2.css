@@ -1,0 +1,136 @@
+/* border/margin/padding reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body, container and header set-up */
+body {
+    background-color: lightgrey;
+}
+
+.container {
+    background-color: white;
+    width: 1050px;
+    margin: 0 auto;
+}
+
+header {
+    height: 80px;
+    background-image: url('../img/pattern.png');
+    background-size: 32%;
+    background-color: #4ea0ff;
+    padding-left: 6px;
+    padding-top: 25px;
+}
+
+#header-logo {
+    height: 45px;
+}
+
+/* beginnig of article section */
+article {
+    padding: 0px 100px 0px 100px;
+}
+/* lateral padding for the whole article */
+
+h1 {
+    font-size: 40px;
+}
+
+.article-data {
+    color: #aaa;
+}
+
+.author {
+    font-size: 18px;
+}
+
+.date {
+    font-size: 12px;
+}
+
+#author-link {
+    color: #4ea0ff;
+    text-decoration: none;
+}
+
+/* to distantiate every section of the article of the same amount of px */
+.section {
+    margin-top: 20px;
+}
+
+.tim-1 {
+    width: 53%;
+}
+
+.tim-2 {
+    width: 46%;
+}
+
+.pictures-data {
+    font-size: 12px;
+}
+
+/* for every higlighted portion of text */
+.highlight {
+    background-color: yellow;
+}
+
+/* adjusting the list because the points were outside of the container */
+.list {
+    padding-left: 15px;
+}
+
+/* table set-up */
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #20a9e5;
+    color: white;
+    text-align: left;
+}
+
+td:last-child {
+    width: 50%;
+}
+/* altrimenti come selettore .right-column, ma volevo provare a usarne uno avanzato */
+
+tbody tr:nth-of-type(2n+1) {
+    background-color: #b1e5f2;
+}
+/* come sopra, altrimenti basta .odd Se ci fossero tante righe penso che il selettore avanzato sarebbe una soluzione migliore */
+
+/* footer set-up */
+footer {
+    padding: 30px 100px 30px 100px;
+}
+
+.footer-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: grey;
+}
+
+/* layout for related news */
+.footer-news {
+    margin-top: 10px;
+    height: 150px;
+    width: 200px;
+    background-size: cover;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 0px 0px 8px;
+}
+
+.news-1 {
+    background-image: url('../img/monitor.jpg');
+}
+
+.news-2 {
+    background-image: url('../img/graph.jpg');
+}
