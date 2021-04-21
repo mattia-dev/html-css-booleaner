@@ -4,8 +4,13 @@
     padding: 0;
 }
 
+body {
+    background-color: lightgrey;
+}
+
 .container {
-    width: 1000px;
+    background-color: white;
+    width: 1050px;
     height: 1000px;
     margin: 0 auto;
 }
@@ -15,10 +20,53 @@ header {
     background-image: url('../img/pattern.png');
     background-size: 32%;
     background-color: #4ea0ff;
-    padding-left: 10px;
+    padding-left: 6px;
     padding-top: 25px;
 }
 
 #header-logo {
     height: 45px;
 }
+
+article {
+    padding-left: 6px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.article-data {
+    color: #aaa;
+}
+
+.author {
+    font-size: 16px;
+}
+
+.date {
+    font-size: 12px;
+}
+
+#author-link {
+    color: #4ea0ff;
+    text-decoration: none;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.pictures-data {
+    font-size: 12px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.list {
+    padding-left: 15px;
+}
+
+
